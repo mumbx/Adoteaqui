@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Ranchers&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -28,7 +30,7 @@ main{
     text-align: center;
     border-radius: 1.5ch;
     width: 99%;
-    background-color:#ffffff;
+    background-color:#F5DCB4;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -79,10 +81,10 @@ ul{
 
 hr{
     width: 90%;
-    height: 5px;
+    height: 3px;
     border-radius: 2ch;
     text-align: center;
-    border-color: #4BB7EF;
+    
     background-color: #020303;
     margin: 0 auto;
     margin-top: 5px;
@@ -92,7 +94,7 @@ hr{
 
 
 a{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Ranchers', cursive;
     color: #4BB7EF;
     text-decoration:none;
     font-size: 15px;
@@ -175,6 +177,10 @@ li img{
 .topmain img{
     width: 100%;
     border-radius: 2ch;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    
    
 }
 
@@ -190,17 +196,20 @@ li img{
 
 .textotop{
     margin-bottom: 10px; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 .textotop p{
-    font-size: 25px;  
-      
+    letter-spacing: 1.5px;
+    font-size: 30px;  
+    
 }
 
 .textotop h1{
+    font-family: 'Ranchers', cursive;
     font-size: 40px;    
     margin-bottom: 3px;
+    letter-spacing: 1.5px;
 }
 
 .botmain{
@@ -218,14 +227,14 @@ li img{
 }
 
 button{
-
+    letter-spacing: 0.3em;
     width: 50%;
     background-color: #000000;
     height: 30px;
     font-weight: bold;
-    color: white;
+    color:white;
     font-size: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Ranchers', cursive;
     text-transform: uppercase;
     transition: background-color 1s, color 1s;
     border-style: none;
@@ -235,10 +244,15 @@ button{
 
 button:hover{
     
-    background-color: #4BB7EF;
+    width: 55%;
+    border-style: solid;
+    color:black;
+    background-color: white;
+
 }
 
 .pet{
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -252,14 +266,16 @@ button:hover{
 
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 
  h2{
-    font-size: 25px;    
-    margin-bottom: 3px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;    
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Ranchers', cursive;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .ong{
@@ -271,7 +287,7 @@ button:hover{
     height: 350px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 720px){
 
     .topmain img{
 
