@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color:#4BB7EF;
+    background-color:#A68A5C;
     
     display: flex;
     flex-direction: column;
@@ -18,10 +18,10 @@ header{
 
     width: 100%;
     height: 120px;
-    background: #1f3050;
+    background-color: #3F2202 ;
     border-bottom: solid;  
     border-width: 10px;    
-    border-bottom-color:#4BB7EF;
+    border-bottom-color:#A68A5C;
     
     }
 
@@ -30,7 +30,7 @@ main{
     text-align: center;
     border-radius: 1.5ch;
     width: 99%;
-    background-color:#F5DCB4;
+    background-color:#F5DCB4 ;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -45,10 +45,10 @@ footer{
 
     width: 100%;
     height: 120px;
-    background: #1f3050;
+    background: #3F2202;
     border-top: solid;  
     border-width: 15px;    
-    border-top-color:#4BB7EF;
+    border-top-color:#A68A5C;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -83,6 +83,7 @@ hr{
     width: 90%;
     height: 3px;
     border-radius: 2ch;
+    border-color: #000000;
     text-align: center;
     
     background-color: #020303;
@@ -95,9 +96,9 @@ hr{
 
 a{
     font-family: 'Ranchers', cursive;
-    color: #4BB7EF;
+    color: #F5DCB4;
     text-decoration:none;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     transition: font-size 0.3s, color 1s;
     
@@ -224,11 +225,16 @@ li img{
 
 .botmain img{
     border-radius: 1.5ch;
+    border-radius: 2ch;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+
 }
 
 button{
     letter-spacing: 0.3em;
-    width: 50%;
+    width: 40%;
     background-color: #000000;
     height: 30px;
     font-weight: bold;
@@ -244,7 +250,7 @@ button{
 
 button:hover{
     
-    width: 55%;
+    
     border-style: solid;
     color:black;
     background-color: white;
